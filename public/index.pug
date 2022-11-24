@@ -1,0 +1,144 @@
+
+- var pageTitle = 'TV'
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    style
+      include styles/normilize.css
+      include styles/style.css
+  body
+    include modules/header
+
+    section.section-banner
+      img(src="/src/images/Vladimir.jpg", alt="Banner").section-banner__image
+      .container
+        .banner
+          h1.banner__title Vladimir
+          .banner-info
+            span.banner-info__year 2021
+            span.banner-info__age 18+
+            span.banner-info__time 4h 2min
+            span.banner-info__rating 8.8
+          p.banner__text Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aut quae fugit minus, quo debitis beatae veniam porro, dicta veritatis atque corrupti ducimus. Voluptatem iste corrupti voluptatibus autem. Eligendi, placeat!
+          .banner-control
+            button.banner-control__btn.banner-control__btn-main Watch
+            button.banner-control__btn.banner-control__btn-more More informarion
+    section.section
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Other midleiners 
+        .movies
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Viktor2.jpg", alt="").movies__img 
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/LeBlanc.jpeg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Akali.jpg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Veigar.jpg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Syndra.jpg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Ahri.jpg", alt="").movies__img
+    section.section
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link All heroes 
+        .movies
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Viktor2.jpg", alt="").movies__img 
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/LeBlanc.jpeg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Akali.jpg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Veigar.jpg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Syndra.jpg", alt="").movies__img
+          .movies-item
+             a(href="#").movies__link 
+              img(src="../src/images/heroes/Ahri.jpg", alt="").movies__img
+        button.section__btn See more
+    section.section
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Roles 
+        .roles
+          .roles-item.roles-item__mages
+            .roles-icon
+              img(src="../src/images/roles/mages.jpg", alt="mages").roles-image
+            h3.role__title Mages
+          .roles-item.roles-item__assassins
+            .roles-icon
+              img(src="../src/images/roles/assassins.jpg", alt="assassins").roles-image
+            h3.role__title Assassins
+          .roles-item.roles-item__bruisers
+            .roles-icon
+              img(src="../src/images/roles/bruisers.jpg", alt="bruisers").roles-image
+            h3.role__title Bruisers
+          .roles-item.roles-item__marksman
+            .roles-icon
+              img(src="../src/images/roles/marksman.jpg", alt="marksman").roles-image
+            h3.role__title Marksman
+          .roles-item.roles-item__tanks
+            .roles-icon
+              img(src="../src/images/roles/tanks.jpg", alt="tanks").roles-image
+            h3.role__title Tanks
+          .roles-item.roles-item__support
+            .roles-icon
+              img(src="../src/images/roles/support.jpg", alt="support").roles-image
+            h3.role__title Support
+    section.section
+      .container 
+        h2.section__h2
+          a(href="#").section__h2-link Popular streamers
+        .streamers
+          .streamers-item
+            a(href="#").streamers__link 
+              img(src="../src/images/streamers/TurntheSlayer.jpg", alt="").streamers__img 
+            h3.streamers__title TurntheSlayer
+          .streamers-item
+            a(href="#").streamers__link 
+              img(src="../src/images/streamers/Teamless.jpg", alt="").streamers__img
+            h3.streamers__title Teamless
+          .streamers-item
+            a(href="#").streamers__link 
+              img(src="../src/images/streamers/GeneralHS.jpg", alt="").streamers__img
+            h3.streamers__title General HS
+          .streamers-item
+            a(href="#").streamers__link 
+              img(src="../src/images/streamers/Dimil.jpg", alt="").streamers__img
+            h3.streamers__title Dimil
+          .streamers-item 
+            a(href="#").streamers__link 
+              img(src="../src/images/streamers/Keysie.jpg", alt="").streamers__img
+            h3.streamers__title Keysie
+    section.section
+      .container
+        .marketing
+          .marketing-item
+            a(href="#").marketing-link
+              img(src="../src/images/marketing/marketing1.jpg", alt="").marketing__img
+          .marketing-item
+            a(href="#").marketing-link
+              img(src="../src/images/marketing/marketing2.jpg", alt="").marketing__img
+    section.section
+      .container
+        .offer
+          h2.offer__title Are You New Here? Don't&nbspWait, Register Now.
+          button.offer__btn Register
+
+    include modules/footer

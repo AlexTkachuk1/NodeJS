@@ -1,0 +1,32 @@
+{
+  "name": "testnodejs",
+  "version": "1.0.0",
+  "description": "Node JS course ",
+  "main": "app.js",
+  "scripts": {
+    "starts": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTkachuk1/testNodeJS.git"
+  },
+  "keywords": [
+    "node",
+    "node",
+    "js"
+  ],
+  "author": "Alex Tkachuk <alextkachykforwork@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTkachuk1/testNodeJS/issues"
+  },
+  "homepage": "https://github.com/AlexTkachuk1/testNodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "pug": "^3.0.2"
+  }
+}
